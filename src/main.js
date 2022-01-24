@@ -1,8 +1,4 @@
-import animateTitle from './features/animateTitle'
-import createBadge from './features/createBasge'
-import './styles/style.css'
+const a = document.querySelector('.heading-jumbo')
 
-console.log('Welcome to Vite + JS + Webflow!')
-
-createBadge()
-animateTitle()
+a.style.color = 'blue'
+a.innerHTML = 'hello'
