@@ -1,4 +1,4 @@
 const a = document.querySelector('.heading-jumbo')
 
-a.style.color = 'blue'
+a.style.color = 'orange'
 a.innerHTML = 'hello'
